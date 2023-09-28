@@ -2,17 +2,17 @@
 
 int main() 
 {
-    // int c;
+    int c;
 
-    // while ((c = getchar()) != EOF) 
-    // {
-    //     putchar(c);
-    // }
-
-    long nc;
-    while (getchar() != EOF) 
+    while ((c = getchar()) != EOF) 
     {
-        ++nc;
+        putchar(c);
     }
-    printf("%ld\n", nc);
+
+    // long nc;
+    // while (getchar() != EOF) 
+    // {
+    //     ++nc;
+    // }
+    // printf("%ld\n", nc);
 }
