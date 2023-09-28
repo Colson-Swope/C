@@ -153,5 +153,7 @@ comma operators should be used sparingly, most suitable for constructs strongly 
 
 the trim function removes trailing blanks, tabs, and new lines from the end of a string, using a break to exit from a loop when the rightmost non-blank, non-tab, non-newline is found 
 
-go to statements 
 
+go to statements 
+enumeration 
+bitwise 
