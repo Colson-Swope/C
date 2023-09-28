@@ -144,3 +144,8 @@ for example x = x & ~077 sets the last six bits of x to zero
 
 x *= y + 1
 x = x * (y + 1) 
+
+Conditional expressions / replacing them with if / else 
+
+brackets combine statements into a compound block 
+
