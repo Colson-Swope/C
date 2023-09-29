@@ -1,4 +1,0 @@
-c character arrays are not auto extended, the system will blow up 
-in c single quotes are a character and double quotes are a character array (neither are a string)
-see an a in 'A' as a number, the letter is conveniently translated by the compiler 
-character arrays need to allocate an extra byte to store the line-end character 
