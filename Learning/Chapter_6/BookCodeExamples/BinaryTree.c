@@ -69,9 +69,20 @@ void treeprint(struct tnode *p)
         treeprint(p->right);
     }
 }
-int tree
+
+// left off here 142 
 {
     return (struct tnode *) malloc(sizeof(struct tnode));
 }
 
-char *strdub(char *s) // left off on page 142 
+char *strdup(char *s) // duplicate 'S'
+{   
+    char *p;
+
+    p = (char *) malloc(strlen(s)+1); 
+
+    if (p != NULL) {
+        strcpy(p, s);
+    }
+    return p;
+} 
