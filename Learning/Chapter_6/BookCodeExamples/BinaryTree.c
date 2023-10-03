@@ -71,7 +71,7 @@ void treeprint(struct tnode *p)
 }
 
 // left off here 142 
-{
+struct tnode *talloc(void) {
     return (struct tnode *) malloc(sizeof(struct tnode));
 }
 
