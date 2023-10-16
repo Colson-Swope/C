@@ -15,7 +15,7 @@ int main()
 
 		mask = mask >> 1;
 	}
-
+ 
 	printf('%d', bits);
 	return bits;
 }
