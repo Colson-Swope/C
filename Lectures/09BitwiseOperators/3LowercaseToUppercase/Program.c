@@ -4,21 +4,21 @@ void SpitBits(unsigned char value);
 
 int main() 
 {
-	const int SIXTH_BIT_MASK = 0x20;
+	const char SIXTH_BIT_MASK = 0xDF;
 
 	//Input
-	printf("Enter an uppercase letter: ");
-	char upperCaseLetter = getchar();
+	printf("Enter a lowercase letter: ");
+	char lowerCaseLetter = getchar();
 	
 	//Process
-	char lowerCaseLetter = (char)(upperCaseLetter | SIXTH_BIT_MASK);
+	char upperCaseLetter = lowerCaseLetter & SIXTH_BIT_MASK;
 	
 	//Output
-	printf("Binary representation of the uppercase character \'%c\' is: ", upperCaseLetter);
-	SpitBits(upperCaseLetter);
-	
 	printf("Binary representation of the lowercase character \'%c\' is: ", lowerCaseLetter);
-	SpitBits(lowerCaseLetter);		
+	SpitBits(lowerCaseLetter);
+	
+	printf("Binary representation of the uppercase character \'%c\' is: ", upperCaseLetter);
+	SpitBits(upperCaseLetter);		
 
 	char c = getchar();
 	c = getchar();

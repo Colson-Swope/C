@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() 
 {
 	unsigned char letter = 'A';
@@ -15,7 +13,6 @@ int main()
 
 		mask = mask >> 1;
 	}
- 
-	printf("%u", bits);
+
 	return bits;
 }
