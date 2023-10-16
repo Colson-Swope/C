@@ -12,6 +12,7 @@ int main()
 	unsigned short result = PackBytes(c1, c2);
 
 	//Output
+	// prints hex characters with the 0x prefix 
 	printf("%#X", result);
 	
 	printf("\n");

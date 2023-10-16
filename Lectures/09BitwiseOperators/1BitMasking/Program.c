@@ -16,6 +16,6 @@ int main()
 		mask = mask >> 1;
 	}
  
-	printf('%d', bits);
+	printf("%u", bits);
 	return bits;
 }
