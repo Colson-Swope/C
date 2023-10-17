@@ -16,6 +16,7 @@ int main()
 
     fclose(fptr);
 
+    // initialized with null characters 
     char buffer[FILE_LINE_BUFFER_SIZE] = { 0 };
 
     fptr = fopen("Data.txt", "r");

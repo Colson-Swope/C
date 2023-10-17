@@ -1,4 +1,5 @@
 #include <time.h>
+#include <stdio.h>
 
 int write_message(char* filename, char* client_ip_addr, char* message)
 {
