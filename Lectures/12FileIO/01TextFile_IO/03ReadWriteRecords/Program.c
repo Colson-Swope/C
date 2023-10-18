@@ -18,6 +18,7 @@ int main()
 
     fclose(fptr);
 
+    // a is for appending 
     fptr = fopen("Data.txt", "a");
 
     result = fprintf(fptr, "%s\n", "Donald Duck");

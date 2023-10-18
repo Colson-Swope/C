@@ -10,18 +10,20 @@ int nodeCount = 0;
 
 void enqueue(char item) 
 {
-    if(head == NULL)
+    if(head == NULL) // if list is empty 
     {
-        head = (struct Node*) malloc(sizeof(struct Node));
+        head = (struct Node*) malloc(sizeof(struct Node)); // allocate mem for first node 
 
         if (head != NULL)
         {
-            head->data = item;
-            head->next = NULL;
+            head->data = item; // set data of first node to the passed 'item'
+            head->next = NULL; // initalize 'next' pointer to NULL 
 
-            nodeCount++;
+            nodeCount++; // incrememnt count of nodes in the list 
         }
     }
+
+    // if list is not empty 
     else
     {
         struct Node* current = head;
@@ -40,9 +42,9 @@ void enqueue(char item)
             node->data = item;
             node->next = NULL;
 
-            current->next = node;
+            current->next = node; // link new node to previous last node 
 
-            nodeCount++;
+            nodeCount++; // increment count of nodes in the list 
         }
     }
 }
