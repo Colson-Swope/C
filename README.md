@@ -6,3 +6,4 @@ The C Programming Language Book by Brian Kernighan and Dennis Ritchie
 
 https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628
 
+Scripts under the "Lectures" folder are scripts taken from my in-class college lectures 
